@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rekapalli Sukumar | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">&lt;RS /&gt;</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-animation"></div>
+        <div class="hero-content">
+            <p class="hero-greeting animate__delay-1">Hello, I'm</p>
+            <h1 class="hero-name animate__delay-2"><span class="gradient-text">Rekapalli Sukumar</span></h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-role" id="typedText"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description animate__delay-3">
+                Senior Applications Software Engineer with 6+ years across systems engineering, software development,
+                Kubernetes platform operations, cloud-native infrastructure, CI/CD, observability, and AI engineering.
+            </p>
+            <div class="hero-actions animate__delay-4">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i> View My Work
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+            </div>
+            <div class="hero-social">
+                <a href="https://www.linkedin.com/in/rekapalli-sukumar-4999151a0/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:sukumar.sachin09@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos>
+                <span class="section-number">01.</span> About Me
+            </h2>
+            <div class="about-grid">
+                <div class="about-image" data-aos>
+                    <div class="image-wrapper">
+                        <img src="https://ui-avatars.com/api/?name=Rekapalli+Sukumar&size=400&background=6c5ce7&color=fff&bold=true&font-size=0.35" alt="Rekapalli Sukumar" class="profile-img">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos>
+                    <p class="about-text">
+                        I'm a Senior Applications Software Engineer based in Bengaluru, India with 6+ years of experience
+                        spanning systems engineering, software development, Kubernetes platform operations, cloud-native
+                        infrastructure, CI/CD, observability, and AI engineering.
+                    </p>
+                    <p class="about-text">
+                        At Oracle, I've worked across an internal developer Kubernetes/devtools platform and a Fusion
+                        omnichannel CCaaS product — combining deep SRE/DevOps expertise with solution design, PoC
+                        development, automation, and product-facing engineering. I've helped move teams toward
+                        AI-native practices by building reusable skill abstraction systems, LLM workflows, and operational
+                        automation that solve real on-call and productivity challenges.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bengaluru, India</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9000331479</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>6+ Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos>
+                <span class="section-number">02.</span> Experience
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos>
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Senior Applications Software Engineer</h3>
+                            <span class="timeline-company">@ Oracle</span>
+                        </div>
+                        <span class="timeline-date">Jun 2021 — Present | Bengaluru, India</span>
+                        <ul class="timeline-description">
+                            <li>Worked across two Oracle contexts: an internal developer Kubernetes/devtools platform and a Fusion omnichannel CCaaS product under Fusion.</li>
+                            <li>Maintained and evolved the internal Kubernetes platform used by application teams — handling deployments, regular maintenance, outages, alerts, runbooks, and day-to-day platform reliability.</li>
+                            <li>Worked directly with organizational leaders, product owners, application teams, and component SMEs to resolve platform blockers, improve operational health, and shape practical solutions.</li>
+                            <li>Support and improved CI/CD workflows around Jenkins, GitLab, platform component builds, deployment automation, and release operations.</li>
+                            <li>Contributed to migration efforts from legacy VM-based environments to cloud-native infrastructure, including cloud platform readiness, deployment changes, and operational handover.</li>
+                            <li>Reduced cloud infrastructure costs by redesigning architecture and moving suitable development and demo workloads to a locally hosted server environment.</li>
+                            <li>Built Python-based automations and internal tools that remove repetitive operational work across monitoring, deployment, triage, and engineering workflows.</li>
+                            <li>Led the team toward more AI-native engineering practices by designing Cline, Codex, MCP, and LLM workflows that fit daily operational work rather than isolated demos.</li>
+                            <li>Built the Cline skill abstraction from scratch — including reusable skills, workflow composition patterns, runbook-aware troubleshooting, and Slack-based operational analysis.</li>
+                            <li>Built CCaaS product PoCs, demos, and supporting infrastructure by combining systems engineering, software development, automation, and solution design.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos>
+                <span class="section-number">03.</span> Skills & Technologies
+            </h2>
+            <p class="section-subtitle" data-aos>The technologies and tools I work with across SRE, platform engineering, and AI:</p>
+            <div class="skills-grid">
+                <!-- Platform & SRE -->
+                <div class="skill-category" data-aos>
+                    <div class="category-icon"><i class="fas fa-server"></i></div>
+                    <h3 class="category-title">Platform & SRE</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">OCI</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">Thanos</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitLab</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Runbooks</span>
+                    </div>
+                </div>
+                <!-- Cloud Native -->
+                <div class="skill-category" data-aos>
+                    <div class="category-icon"><i class="fas fa-cloud"></i></div>
+                    <h3 class="category-title">Cloud Native & Systems</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">CNCF Tooling</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">Temporal</span>
+                        <span class="skill-tag">HashiCorp Vault</span>
+                        <span class="skill-tag">Consul</span>
+                        <span class="skill-tag">Cloud Cost Optimization</span>
+                    </div>
+                </div>
+                <!-- AI Engineering -->
+                <div class="skill-category" data-aos>
+                    <div class="category-icon"><i class="fas fa-brain"></i></div>
+                    <h3 class="category-title">AI Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Agentic AI</span>
+                        <span class="skill-tag">LLM Workflows</span>
+                        <span class="skill-tag">MCP/Tool Dev</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">AutoGen</span>
+                        <span class="skill-tag">Ollama</span>
+                        <span class="skill-tag">OpenHands</span>
+                        <span class="skill-tag">Cline</span>
+                        <span class="skill-tag">Codex</span>
+                    </div>
+                </div>
+                <!-- Application Development -->
+                <div class="skill-category" data-aos>
+                    <div class="category-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="category-title">Application Dev</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Oracle Visual Builder</span>
+                    </div>
+                </div>
+                <!-- Databases -->
+                <div class="skill-category" data-aos>
+                    <div class="category-icon"><i class="fas fa-database"></i></div>
+                    <h3 class="category-title">Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Oracle DB</span>
+                        <span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <!-- Product & Solutions -->
+                <div class="skill-category" data-aos>
+                    <div class="category-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3 class="category-title">Product & Solutions</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Fusion CCaaS</span>
+                        <span class="skill-tag">Solution Design</span>
+                        <span class="skill-tag">PoC Development</span>
+                        <span class="skill-tag">Demo Engineering</span>
+                        <span class="skill-tag">Technical Discovery</span>
+                        <span class="skill-tag">UX/Design Sense</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos>
+                <span class="section-number">04.</span> Featured Work
+            </h2>
+            <p class="section-subtitle" data-aos>Selected contributions and PoCs from my work:</p>
+            <div class="projects-grid">
+
+                <!-- AI Runbook Automation -->
+                <div class="project-card highlight-card" data-aos>
+                    <div class="project-header">
+                        <i class="fas fa-star project-icon"></i>
+                        <span class="featured-badge">Signature Work</span>
+                    </div>
+                    <h3 class="project-title">AI Runbook Automation</h3>
+                    <p class="project-description">
+                        Designed and built a Cline/Codex/MCP-based skill system that turned operational runbooks into
+                        reusable AI-assisted workflows. Created a DSL-like notation for composing skills, then evolved
+                        the system from simple automations into workflows that can read runbooks, troubleshoot issues,
+                        and post structured analysis to Slack — adopted beyond the original team because it solved real
+                        on-call and operational workflow problems.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Cline</li>
+                        <li>Codex</li>
+                        <li>MCP</li>
+                        <li>Agentic AI</li>
+                        <li>DSL Design</li>
+                        <li>Slack Integration</li>
+                    </ul>
+                </div>
+
+                <!-- Kubernetes Platform -->
+                <div class="project-card" data-aos>
+                    <div class="project-header">
+                        <i class="fas fa-dharmachakra project-icon"></i>
+                    </div>
+                    <h3 class="project-title">Kubernetes Platform Engineering</h3>
+                    <p class="project-description">
+                        Maintained and evolved an internal Kubernetes platform serving multiple application teams at Oracle.
+                        Managed deployments, outages, alerts, runbooks, and day-to-day reliability. Migrated legacy VM-based
+                        workloads to cloud-native infrastructure, reducing operational overhead and improving platform scalability.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Kubernetes</li>
+                        <li>OCI</li>
+                        <li>Jenkins</li>
+                        <li>Grafana</li>
+                        <li>Linux</li>
+                    </ul>
+                </div>
+
+                <!-- Fusion CCaaS Product -->
+                <div class="project-card" data-aos>
+                    <div class="project-header">
+                        <i class="fas fa-headset project-icon"></i>
+                    </div>
+                    <h3 class="project-title">Fusion Omnichannel CCaaS Product</h3>
+                    <p class="project-description">
+                        Worked on a Fusion omnichannel CCaaS product — building PoCs, demos, and supporting infrastructure.
+                        Combined systems engineering, software development, automation, and solution design to deliver
+                        customer-facing demonstrations and internal tooling for technical discovery and implementation planning.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Fusion</li>
+                        <li>CCaaS</li>
+                        <li>Python</li>
+                        <li>Angular</li>
+                        <li>Oracle VB</li>
+                    </ul>
+                </div>
+
+                <!-- Cloud Cost Optimization -->
+                <div class="project-card" data-aos>
+                    <div class="project-header">
+                        <i class="fas fa-chart-line project-icon"></i>
+                    </div>
+                    <h3 class="project-title">Cloud Infrastructure & Cost Optimization</h3>
+                    <p class="project-description">
+                        Reduced cloud infrastructure costs by redesigning architecture and moving suitable development and demo
+                        workloads to a locally hosted server environment. Contributed to migration efforts from legacy VM-based
+                        environments, handling cloud platform readiness, deployment changes, and operational handover.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>AWS</li>
+                        <li>GCP</li>
+                        <li>OCI</li>
+                        <li>Docker</li>
+                        <li>Consul</li>
+                    </ul>
+                </div>
+
+                <!-- CI/CD & Automation -->
+                <div class="project-card" data-aos>
+                    <div class="project-header">
+                        <i class="fas fa-cogs project-icon"></i>
+                    </div>
+                    <h3 class="project-title">CI/CD Pipelines & Python Automation</h3>
+                    <p class="project-description">
+                        Improved CI/CD workflows around Jenkins and GitLab for platform component builds, deployment automation,
+                        and release operations. Built Python-based automations and internal tools that eliminated repetitive operational
+                        work across monitoring, deployment, triage, and engineering workflows.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Jenkins</li>
+                        <li>GitLab CI/CD</li>
+                        <li>Python</li>
+                        <li>Temporal</li>
+                        <li>HashiCorp Vault</li>
+                    </ul>
+                </div>
+
+                <!-- Observability -->
+                <div class="project-card" data-aos>
+                    <div class="project-header">
+                        <i class="fas fa-chart-area project-icon"></i>
+                    </div>
+                    <h3 class="project-title">Observability & Monitoring Systems</h3>
+                    <p class="project-description">
+                        Designed and maintained observability infrastructure using Grafana, Thanos, and other tools to ensure
+                        platform reliability. Implemented alerting, dashboarding, and structured analysis capabilities that
+                        enabled proactive monitoring and faster incident response for application teams.
+                    </p>
+                    <ul class="project-tech-list">
+                        <li>Grafana</li>
+                        <li>Thanos</li>
+                        <li>Kafka</li>
+                        <li>Slack Integration</li>
+                        <li>Alerting</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Work Section -->
+    <section class="section signature-work" id="signature-work">
+        <div class="container">
+            <h2 class="section-title" data-aos>
+                <span class="section-number">★</span> Signature Work
+            </h2>
+            <div class="signature-card" data-aos>
+                <div class="signature-content">
+                    <h3 class="signature-title">AI Runbook Automation: From Theory to Production</h3>
+                    <p class="signature-body">
+                        At the heart of my recent work is a system I designed and built that bridges the gap between
+                        operational knowledge and AI-powered automation. I created a Cline/Codex/MCP-based skill system
+                        that transforms static operational runbooks into dynamic, AI-assisted workflows.
+                    </p>
+                    <div class="signature-breakdown">
+                        <div class="breakdown-item">
+                            <i class="fas fa-layer-group"></i>
+                            <div>
+                                <h4>DSL for Skill Composition</h4>
+                                <p>Created a domain-specific notation for composing reusable skills that can be combined into complex workflows.</p>
+                            </div>
+                        </div>
+                        <div class="breakdown-item">
+                            <i class="fas fa-book-open"></i>
+                            <div>
+                                <h4>Runbook Reading & Troubleshooting</h4>
+                                <p>Workflows that ingest operational runbooks and use AI to interpret, troubleshoot, and respond to issues in real time.</p>
+                            </div>
+                        </div>
+                        <div class="breakdown-item">
+                            <i class="fas fa-slack"></i>
+                            <div>
+                                <h4>Slack-Integrated Analysis</h4>
+                                <p>Post-structured analysis directly to Slack channels, enabling team visibility into operational events and AI-generated insights.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <blockquote class="signature-quote">
+                        "The work helped move the team from experimenting with AI to using it in day-to-day engineering —
+                        adopted beyond the original team because it solved real on-call and operational workflow problems."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container contact-container">
+            <p class="section-subtitle" data-aos>What's Next?</p>
+            <h2 class="section-title large-title" data-aos>
+                Get In Touch
+            </h2>
+            <p class="contact-description" data-aos>
+                I'm open to discussing new opportunities, collaborations on AI automation and platform engineering projects,
+                or just chatting about everything from Kubernetes internals to Agentic AI workflows. Feel free to reach out!
+            </p>
+            <div class="contact-center">
+                <a href="mailto:sukumar.sachin09@gmail.com" class="btn btn-primary btn-large">
+                    <i class="fas fa-paper-plane"></i> sukumar.sachin09@gmail.com
+                </a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-socials" data-aos>
+                <a href="https://www.linkedin.com/in/rekapalli-sukumar-4999151a0/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:sukumar.sachin09@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                Designed & Built by Rekapalli Sukumar · © 2025
+            </p>
+            <button class="back-to-top" id="backToTop" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
